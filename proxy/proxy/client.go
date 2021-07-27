@@ -118,6 +118,7 @@ type Client struct {
 	// Login is enabled, this value should be set to IAMLoginRefreshCfgBuffer.
 	RefreshCfgBuffer time.Duration
 
+	// InstanceGetter is a way to change the behavior of GetInstances.
 	InstanceGetter func() ([]string)
 }
 
