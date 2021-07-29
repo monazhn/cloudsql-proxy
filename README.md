@@ -287,7 +287,7 @@ gcloud's active project: [my-project-id]"}
 #### `-use_http_health_check`
 
 Enables HTTP health checks for the proxy, including startup, liveness, and readiness probing.
-Requires that you configure the Kubernetes container with HTTP probes.
+Requires that you configure the Kubernetes container with HTTP probes ([sample](https://github.com/GoogleCloudPlatform/cloudsql-proxy/tree/main/examples/k8s-health-check/proxy_with_http_health_check.yaml)).
 
 #### `-health_check_port=8090`
 
