@@ -284,6 +284,7 @@ msg. For example, the startup message looks like:
 gcloud's active project: [my-project-id]"}
 
 ```
+
 #### `-use_http_health_check`
 
 Enables HTTP health checks for the proxy, including startup, liveness, and readiness probing.
